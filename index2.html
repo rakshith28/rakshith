@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!doctype html>
+    <html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+    </head>
+
+    <body>
+        <!--  navabar using bootstrap 5 -->
+        <nav class="navbar navbar-expand-md" id="win">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="navbar-brand text-dark" href="index.html">G7 CR Technologies<br>Learning</a>
+                    </li>
+                    <li class="nav-item dropdown" id="myDropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" data-bs-toggle="dropdown">  Export  </a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#"> Learning paths </a></li>
+                            <li> <a class="dropdown-item" href="#"> Cloud Computing&raquo; </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Cloud Certificate</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloud Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Cloud Fundamentals</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> IT operation</a></li>
+                            <li><a class="dropdown-item" href="#"> Continuing Eduction Unit</a></li>
+                            <li><a class="dropdown-item" href="#"> Data science&raquo;</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Big Data</a></li>
+                                    <li><a class="dropdown-item" href="#">Analytics</a></li>
+                                    <li><a class="dropdown-item" href="#">Machine learning</a>
+                                        <li><a class="dropdown-item" href="#">Data Mining</a>
+                                            <li><a class="dropdown-item" href="#">Devops</a>
+                                                <li><a class="dropdown-item" href="#">AI learning</a>
+                                                </li>
+                                </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#"> Design</a></li>
+                                <li><a class="dropdown-item" href="#"> Development</a></li>
+                                <li><a class="dropdown-item" href="#"> Finance</a></li>
+                                <li><a class="dropdown-item" href="#"> Accounting and Operation</a></li>
+                                <li><a class="dropdown-item" href="#"> Marketing</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">LearningPath</a>
+                        </li>
+                        <li>
+                            <input class="form-control form-control-md" id="sea" type="search" placeholder="Search" aria-label="Search" onkeyup="searchcard()">
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Teach</a>
+                        </li>
+                        <li class="nav-item me-4">
+                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">MyLearning</a>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="taruk">
+
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <h1 class="d-inline-block mb-2 text-white" id="ohm"></h1>
+                    <div class="para">
+                        <h3 class="mb-0" id="sai"></h3>
+                        <div class="mb-1 text-muted"></div>
+                        <h5 class="card-text mb-auto" id="baba"></h5>
+                        <h6 class="text-white" id="harsh"></h6>
+                        <h6 class="text-white" id="rang"></h6>
+                    </div>
+
+                </div>
+            </div>
+            <!-- sub card using bootstrap 5 -->
+            <div class="col-auto d-none d-lg-block">
+                <div class="card ugy" style="width: 18rem;">
+                    <div class="card-bodies">
+                        <img src="images/cloud1.jpg" class="card-img-top" alt="" data-bs-toggle="modal" data-bs-target="#edt_emp">
+                        <img class="wat" src="https://img.icons8.com/ios-filled/75/000000/circled-play.png" data-bs-toggle="modal" data-bs-target="#edt_emp">
+                        <h5 class="card-title px-1 mx-3" id="prom"></h5>
+                        <h6 class="card-text" id="time"><img src="https://img.icons8.com/material-rounded/20/000000/time.png" /></h6>
+                        <button type="button" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#edt_emp">Play</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="jess">
+            <h3>Course content</h3>
+        </div>
+
+        <div class="head">
+            <div="header">
+                <table class="table">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="siv">
+                                <h5>welcome course</h5>
+                            </th>
+                            <th class="siv">
+                                <h5>time</h5>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#see_emp"><img src="https://img.icons8.com/material-rounded/24/000000/circled-play.png" /> Featured courses in cloud
+                                </a>
+                            </td>
+                            <td>04:23</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="" data-bs-toggle="modal" data-bs-target="#see_emp"><img src="https://img.icons8.com/material-rounded/24/000000/circled-play.png" />introduction to cloud by edureka</a>
+                            </td>
+                            <td>04:35</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href=""><img src="https://img.icons8.com/material-rounded/24/000000/circled-play.png" />learn cloud computing</a>
+                            </td>
+                            <td>08:34</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href=""><img src="https://img.icons8.com/material-rounded/24/000000/circled-play.png" />learn cloud computing</a>
+                            </td>
+                            <td>07:23</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+        </div>
+        </div>
+
+
+        <footer class="py-5 ">
+            <div class="row ">
+                <div class="col-2 ">
+
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">Get the app</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">About us</a></li>
+                        <li class="nav-item mb-2 ">
+                            <br>
+                            <br>
+                            <div class="fname ">
+                                <a href="# " class="nav-link p-0 text-muted ">
+                                    <h3 class="fqname "></h3>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- footer part using bootstrap 5 -->
+                <div class="col-2 ">
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">Help Us</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">Term</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 ">
+                    <ul class="nav flex-column ">
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">Privacy policy</a></li>
+                        <li class="nav-item mb-2 "><a href="# " class="nav-link p-0 text-white ">Site map</a></li>
+                    </ul>
+                </div>
+
+                <div class="container align-content-lg-center ">
+                    <div class="row mt-3 ">
+                        <div class="col-lg-8 col-md-6 px-4 ">
+                            <h4 class="copz "><img src="logo.svg" alt=""></h4>
+                        </div>
+                        <div class="col-lg-3 col-md-4 ">
+                            <p class="toq ">&copy;2021Company,Inc</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- modal using bootstrap 5 to play videos-->
+                <div class="modal fade" id="edt_emp" tabindex="-1" aria-labelledby="edt_emp" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-white" id="porp"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <iframe id="iframe" width="465" height="361" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal fade" id="see_emp" tabindex="-1" aria-labelledby="see_emp" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-black" id="porp">Cloud computing</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <iframe id="iframe" width="465" height="361" src="https://www.youtube.com/embed/3WIJ4axzFlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div <!-- Optional JavaScript; choose one of the two! -->
+
+            <!-- Option 1: Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj " crossorigin="anonymous "></script>
+
+            <!-- Option 2: Separate Popper and Bootstrap JS -->
+            <!--btnopen.addEventListener('click', () => {
+            window.open(link.toString());  let btnopen = document.querySelector('button');
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js " integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp " crossorigin="anonymous "></script>
+    <scrip src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js " integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/ " crossorigin="anonymous "></script>
+    -->
+    </body>
+
+
+    <script>
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+
+
+
+        var passwedCourseId = getParameterByName('courseId');
+        //alert("The Course asked has ID: "+passwedCourseId+"");
+
+        const input = "https://www.youtube.com/embed/uNnJli7Vhpk";
+        const input1 = "https://www.youtube.com/embed/usYySG1nbfI";
+        const input2 = "https://www.youtube.com/embed/36zducUX16w";
+        const input3 = "https://www.youtube.com/embed/3WIJ4axzFlU";
+        const input4 = "https://www.youtube.com/embed/qz0aGYrrlhU";
+        const input5 = "https://www.youtube.com/embed/Edsxf_NBFrw";
+        const input6 = "https://www.youtube.com/embed/Q33KBiDriJY";
+        const input7 = "https://www.youtube.com/embed/l1EssrLxt7E";
+        const input8 = "https://www.youtube.com/embed/UmnCZ7-9yDY";
+        const input9 = "https://www.youtube.com/embed/_uQrJ0TkZlc";
+        const input10 = "https://www.youtube.com/embed/_uQrJ0TkZlc";
+        const input11 = "https://www.youtube.com/embed/_uQrJ0TkZlc";
+        var courses = [
+            [1, "Cloud fundamentals", "Introduction to Cloud | Cloud Computing Tutorial for Beginners | Cloud Certifications | Edureka", "30mins", "Apr 24, 2018", "Cloud fundamentals", input],
+            [2, "Cloud computing", "Cloud Computing Tutorial for Beginners | Cloud Computing Explained | Cloud Computing | Simplilearn", "10hours hours", "May 18, 2018", "Cloud computing", input1],
+            [3, "Cloud Models", "Cloud Computing Services Models - IaaS PaaS SaaS Explained", "10 minutes", "April 5, 2019", "Cloud Modules", input2],
+            [4, "Cloud Models", "Cloud Computing Services Models - IaaS PaaS SaaS Explained", "10 minutes", "jan 7, 2021", "Cloud Modules", input3],
+            [5, "Front End", "Web Development Full Course - 10 Hours | Learn Web Development from Scratch | Edureka", "10 hours", "Feb 6,2018", "Front end", input4],
+            [6, "Web development", "Complete Roadmap for Web Development || Noob to Advanced || Web Developer 2020", "20 mins", "Aug 22, 2020", "Web development", input5],
+            [7, "Front End", "Web Development Full Course - 10 Hours | Learn Web Development from Scratch | Edureka", "10 hours", "Nov 13, 2017", "Front end", input6],
+            [8, "Web development", "How To Become A Web Developer In 2021", "1 hours", "Feb 16, 2020", "Web development", input7],
+            [9, "Learn HTML", "HTML Tutorial For Beginners In Hindi (With Notes)", "10 hours", "Apl 3, 2021", "Learn html", input8],
+            [10, "Learn css", "css Tutorial For Beginners In Hindi (With Notes)", "10 hours", "Apl 3, 2021", "Learn CSS", input8],
+            [11, "Java Complete course", "Java Tutorial for Beginners | Learn Java in 2 Hours", "10 hours", "Nov 13, 2017", "Java course", input9],
+            [12, "Python complete course", "Python Tutorial - Python for Beginners [Full Course]", "20 hours", "Aug 22 202", "python course", input10],
+        ]
+
+        for (var i = 0; i < courses.length; i++) {
+            if (courses[i][0] == passwedCourseId) {
+                var name = " " + courses[i][1]
+                "";
+                var dis = "  " + courses[i][2]
+                "";
+                var duration = " " + courses[i][3]
+                "";
+                var date = " " + courses[i][4]
+                "";
+                var ct = " " + courses[i][5]
+                "";
+                var tc = " " + courses[i][5]
+                "";
+                var url = " " + courses[i][6];
+                "";
+                var unv = url;
+
+                var params = "?" + window.location.search.substr(1);
+
+
+                var iframe_url = unv + params;
+
+
+                document.getElementById("iframe").src = iframe_url;
+
+            }
+            document.getElementById("ohm").innerHTML = name;
+            document.getElementById("sai").innerHTML = dis;
+            document.getElementById("harsh").innerHTML = duration;
+            document.getElementById("rang").innerHTML = date;
+            document.getElementById("prom").innerHTML = ct;
+            document.getElementById("porp").innerHTML = tc;
+            document.getElementById("time").innerHTML = duration;
+        }
+        btnopen.addEventListener('click', () => {
+            window.open(link.toString());
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // make it as accordion for smaller screens
+            if (window.innerWidth < 992) {
+
+                // close all inner dropdowns when parent is closed
+                document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown) {
+                    everydropdown.addEventListener('hidden.bs.dropdown', function() {
+                        // after dropdown is hidden, then find all submenus
+                        this.querySelectorAll('.submenu').forEach(function(everysubmenu) {
+                            // hide every submenu as well
+                            everysubmenu.style.display = 'none';
+                        });
+                    })
+                });
+
+                document.querySelectorAll('.dropdown-menu a').forEach(function(element) {
+                    element.addEventListener('click', function(e) {
+                        let nextEl = this.nextElementSibling;
+                        if (nextEl && nextEl.classList.contains('submenu')) {
+                            // prevent opening link if link needs to open dropdown
+                            e.preventDefault();
+                            if (nextEl.style.display == 'block') {
+                                nextEl.style.display = 'none';
+                            } else {
+                                nextEl.style.display = 'block';
+                            }
+
+                        }
+                    });
+                })
+            }
+            // end if innerWidth
+        });
+    </script>
+
+
+
+    </html>
+</body>
+
+
+</html>

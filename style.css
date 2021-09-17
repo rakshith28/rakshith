@@ -1,0 +1,341 @@
+    .navbar {
+        padding-top: 15px;
+        margin: 0px;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    #win {
+        border-bottom: 1px solid black;
+    }
+    
+    .container-fluid {
+        color: black;
+    }
+    
+    .nav-link {
+        color: black;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+    }
+    
+    .navbar-navs a {
+        padding: left 3px;
+        display: inline-flex;
+    }
+    
+    #sea {
+        border-radius: 25px;
+        width: 600px;
+        height: 40px;
+        border: 1px solid black;
+    }
+    
+    #ban {
+        border-bottom: 2px solid black;
+        border-width: thin;
+    }
+    
+    .card {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    .contsainer {
+        float: left;
+    }
+    
+    .card {
+        min-height: 200px;
+    }
+    
+    .sush {
+        font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+    
+    .rakshith {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .soj {
+        font-family: 'Kaisei Decol', serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-weight: bolder;
+    }
+    
+    #shbu {
+        border-bottom: 1px solid black;
+        box-shadow: 0px 0px 1px 0px gray;
+    }
+    
+    .card {
+        width: 100%;
+        height: 80%;
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+    
+    .py-5 {
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: whitesmoke;
+        background-color: black;
+        top: -140px;
+        position: relative;
+    }
+    
+    .fname {
+        color: whitesmoke;
+        margin-left: 50px;
+    }
+    
+    .copz {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .toq {
+        padding-top: 20px;
+        padding-left: 80%;
+        font-size: small;
+    }
+    
+    a {
+        text-decoration: none !important;
+    }
+    
+    .card-text {
+        text-decoration: none;
+        margin-top: 1px;
+    }
+    
+    .suya {
+        margin-top: 10px;
+    }
+    
+    @media all and (min-width: 992px) {
+        .dropdown-menu li {
+            position: relative;
+        }
+        .nav-item .submenu {
+            display: none;
+            position: absolute;
+            left: 100%;
+            top: -7px;
+        }
+        .nav-item .submenu-left {
+            right: 100%;
+            left: auto;
+        }
+        .dropdown-menu>li:hover {
+            background-color: #f1f1f1
+        }
+        .dropdown-menu>li:hover>.submenu {
+            display: block;
+        }
+    }
+    
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: #DDD;
+    }
+    /* ============ desktop view .end// ============ */
+    /* ============ small devices ============ */
+    
+    @media (max-width: 991px) {
+        .dropdown-menu .dropdown-menu {
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+            margin-bottom: .5rem;
+        }
+    }
+    
+    .aqs {
+        background-color: black;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+        width: 200px;
+        border: 1px solid red
+    }
+    
+    .aqw {
+        color: white;
+        font-family: 'Besley', serif;
+        font-weight: bolder;
+        font-size: x-large;
+        border: 1px solid red
+    }
+    
+    .ents {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+    }
+    
+    .bnh {
+        width: 130px;
+        height: 50px;
+        text-align: center;
+        background-color: whitesmoke;
+        ;
+    }
+    
+    .footerq {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        font-family: 'Besley', serif;
+        font-size: x-large;
+        font-weight: bolder;
+        padding-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .nah {
+        border-bottom: 2px solid black;
+    }
+    
+    .img {
+        float: left !important;
+        width: 100px !important;
+        height: 100px !important;
+        background-size: cover !important;
+    }
+    
+    .raj {
+        text-align: end;
+    }
+    
+    .suchi {
+        position: relative;
+        top: -5px;
+    }
+    
+    .suchi1 {
+        position: relative;
+        top: -40px;
+    }
+    
+    .suchi2 {
+        position: relative;
+        top: -70px;
+    }
+    
+    .suchi3 {
+        position: relative;
+        top: -90px;
+    }
+    
+    .wisp {
+        position: relative;
+        bottom: -20px;
+    }
+    
+    .card-img-top {
+        width: 245px;
+        height: 140px;
+    }
+    
+    .card-body {
+        height: 150px;
+    }
+    
+    .dark {
+        background-color: #1c1d1f;
+        color: #fff;
+        padding: 24px;
+        margin: 20px 0;
+        top: -50px;
+    }
+    
+    .started {
+        font-family: SuisseWorks, Georgia, Times, times new roman, serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.35;
+        letter-spacing: -.02rem;
+        margin-bottom: .8rem;
+    }
+    
+    .started-text {
+        font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+        font-weight: 400;
+        line-height: 1.4;
+        font-size: 16px;
+        margin: 0;
+        word-break: keep-all;
+    }
+    
+    .started-block {
+        display: block;
+    }
+    
+    .dark-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .get {
+        height: 50px !important;
+        border-radius: 0px !important;
+    }
+    
+    .get span {
+        font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -.02rem;
+        font-size: 16px;
+    }
+    
+    .something {
+        border: 1px solid black;
+        background-color: #f1f1f1;
+        position: absolute;
+        margin-right: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black !important;
+    }
+    
+    .something a {
+        padding: 12px 16px !important;
+        text-decoration: none !important;
+        display: block !important;
+    }
+    
+    .karup {
+        list-style: none;
+    }

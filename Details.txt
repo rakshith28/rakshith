@@ -1,0 +1,10 @@
+Used technology
+*HTML
+*CSS
+*Bootstrap
+*Java Script
+Software Used
+*Visual studio code
+Author
+*Rakshith
+(Assignment)
